@@ -14,6 +14,8 @@
 
 using namespace std;
 
+
+//El primero es para ordenar palabras usando vector
 void print(vector<string> names){
     cout<<"Printing.....";
     cout<<endl;
@@ -56,7 +58,7 @@ int main(int argc, const char * argv[]) {
     cout<<"After alphabetical sorting"<<endl;
     print(names);
     
-    
+    //El segundo es para comparar strings como nombre de autor o del libro y ordenar
     //Ojo:Esta parte es para seleccionar y ordenar strings-->array bidimentional ij
     cout<<endl;
     std::string string_one = "Carlos Saco";
@@ -70,7 +72,7 @@ int main(int argc, const char * argv[]) {
         }
     
     
-    
+    //El tercero es para separar del string nombres, generos o titulos
     cout<<endl;
     string s[3];
     s[0]="C0594 Woolf   Virginia    A Room of One   essay   available";
