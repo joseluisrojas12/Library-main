@@ -1,2 +1,2 @@
-# Library-main.cpp
+# Library-main
 Old fashioned library program project.
