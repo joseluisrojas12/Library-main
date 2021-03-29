@@ -11,6 +11,7 @@
 #include <set>
 #include <algorithm>
 #include <cstring>
+#include <fstream>
 
 using namespace std;
 
@@ -35,7 +36,27 @@ vector<string> alphabaticallySort (vector<string> a){
 }
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    
+    //Cargar linea por linea en un array de strings
+    
+    string line;
+    string arrayline[4];
+    ifstream inpInitialRoute("library_holdings.txt");
+    for(int iline=0;iline<4;++iline)
+    {
+        if(getline(inpInitialRoute,line))
+        {
+            arrayline[iline]=line;
+            cout<<arrayline[iline]<<endl;
+        }
+    }
+    inpInitialRoute.close();
+    cout<<"Route 1: "<<arrayline[1]<<endl;
+    cout<<"Route 0: "<<arrayline[0]<<endl;
+    cout<<"Route 2: "<<arrayline[2]<<endl;
+    
+    
+    // insert code here...Ordena usando vector
     int n;
     cout<<"Enter number of names to be added: ";
     cin>>n;
