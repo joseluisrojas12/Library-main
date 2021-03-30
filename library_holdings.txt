@@ -1,1 +1,4 @@
-C0594	Woolf	Virginia	A Room of One’s Own	essay	availableC7495	Gibson	William	Neuromencer	science fiction	availableC1934	Heidegger	Martin	Being and Time	philosophy	unavailableC8394	Kundera	Milan	The unbearable Lightness of Being	novel	available
+C0594	Woolf	Virginia	A Room of One's Own	essay	available
+C7495	Gibson	William	Neuromencer	science fiction	available
+C1934	Heidegger	Martin	Being and Time	philosophy	unavailable
+C8394	Kundera	Milan	The Unbearable Lightness of Being	novel	available
